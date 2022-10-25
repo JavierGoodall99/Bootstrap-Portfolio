@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 6rem;
+}
+body {
+    text-align: center;
+    /* background: gray url('') no-repeat center center; */
+    background-size: cover;
+}
+/* home */
+#home {
+    scroll-margin-block-start: 100px;
+}
+/* about */
+#about {
+    scroll-margin-block-start: 80px;
+}
+/* resume */
+#resume {
+    scroll-margin-block-start: 80px;
+}
+/* projects */
+#projects {
+    scroll-margin-block-start: 200px;
+}
+/* contact */
+#contact {
+    scroll-margin-block-start: 80px;
+}
