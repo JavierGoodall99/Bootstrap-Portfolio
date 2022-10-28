@@ -5,17 +5,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bg-transparent {
+    background-color: rgba(250, 235, 215, 0.292) !important;
+    list-style-type: none;
+}
 .logo {
     width: 6rem;
 }
+.profile {
+    padding-left: 50rem;
+}
 body {
     text-align: center;
-    /* background: gray url('') no-repeat center center; */
+    /* background: url('https://i.postimg.cc/kgrLDBYw/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg') no-repeat center center; */
     background-size: cover;
+}
+.content {
+    text-align: left;
 }
 /* home */
 #home {
     scroll-margin-block-start: 100px;
+    background-color:  rgba(250, 235, 215, 0.292) ;
 }
 /* about */
 #about {
